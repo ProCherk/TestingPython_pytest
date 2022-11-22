@@ -14,6 +14,8 @@ def test_getting_posts():
     # print(len(response.json()))
 
 
+
+
 '''
     Check response include json data
 
