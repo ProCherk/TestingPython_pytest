@@ -10,7 +10,6 @@ def test_getting_posts():
 
     response.assert_status_code(200).validate(POST_SCHEMA)
 
-
     # print(response.json())
     # print(len(response.json()))
 
