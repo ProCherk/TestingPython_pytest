@@ -11,18 +11,39 @@ POST_SCHEMA = {
 }
 
 '''
-[{'id': 2698, 'name': 'Dayamayee Guha DVM', 'email': 'dayamayee_guha_dvm@aufderhar.name', 'gender': 'female', 'status': 
-'active'}, 
-{'id': 2691, 'name': 'Atreyi Jha', 'email': 'atreyi_jha@hegmann.io', 'gender': 'male', 'status': 'inactive'}, 
-{'id': 2690, 'name': 'Urmila Asan', 'email': 'urmila_asan@hermann-nader.org', 'gender': 'male', 'status': 'active'}, 
-{'id': 2689, 'name': 'Sushil Naik', 'email': 'sushil_naik@kunde-daugherty.info', 'gender': 'male', 'status': 'active'}, 
-{'id': 2687, 'name': 'Gov. Akshayakeerti Prajapat', 'email': 'akshayakeerti_prajapat_gov@beatty.co', 'gender': 'female',
- 'status': 'active'}, 
-{'id': 2686, 'name': 'Karunanidhi Varman II', 'email': 'varman_karunanidhi_ii@hilpert.io', 'gender': 'female', 'status':
- 'active'}, 
-{'id': 2685, 'name': 'Raj Joshi', 'email': 'joshi_raj@schumm.name', 'gender': 'female', 'status': 'inactive'}, 
-{'id': 2684, 'name': 'Sumitra Nair', 'email': 'sumitra_nair@ferry.io', 'gender': 'female', 'status': 'inactive'}, 
-{'id': 2683, 'name': 'Vrund Saini', 'email': 'saini_vrund@prohaska-klein.net', 'gender': 'male', 'status': 'active'}, 
-{'id': 2682, 'name': 'Dhaanyalakshmi Naik', 'email': 'dhaanyalakshmi_naik@jacobson-macejkovic.co', 'gender': 'female', 
-'status': 'active'}]}
+{
+    'meta': {
+        'pagination': {
+            'total': 1993,
+            'pages': 200,
+            'page': 1,
+            'limit': 10,
+            'links': {
+                'previous': None,
+                'current': 'https://gorest.co.in/public/v1/users?page=1',
+                'next': 'https://gorest.co.in/public/v1/users?page=2'
+            }
+        }
+    },
+ 'data': [
+     {'id': 3279, 'name': 'Lila Bhat', 'email': 'lila_bhat@hahn.info', 'gender': 'male', 'status': 'active'},
+          {'id': 3278, 'name': 'Tanirika Gupta', 'email': 'gupta_tanirika@cummings.net', 'gender': 'female',
+           'status': 'inactive'},
+          {'id': 3277, 'name': 'Bharadwaj Kakkar', 'email': 'bharadwaj_kakkar@swaniawski.info', 'gender': 'male',
+           'status': 'inactive'},
+          {'id': 3275, 'name': 'Mangala Devar', 'email': 'mangala_devar@rempel-fay.com', 'gender': 'male',
+           'status': 'inactive'},
+          {'id': 3136, 'name': 'Harinakshi Ahluwalia', 'email': 'harinakshi_ahluwalia@hayes.com', 'gender': 'male',
+           'status': 'active'},
+          {'id': 3134, 'name': 'Suresh Pothuvaal', 'email': 'pothuvaal_suresh@mohr.io', 'gender': 'male',
+           'status': 'inactive'},
+          {'id': 3133, 'name': 'Abhirath Chopra', 'email': 'abhirath_chopra@schmeler-kautzer.org', 'gender': 'male',
+           'status': 'active'},
+          {'id': 3132, 'name': 'Niro Nambeesan', 'email': 'nambeesan_niro@lindgren.io', 'gender': 'female',
+           'status': 'active'},
+          {'id': 3129, 'name': 'Mayoor Tagore', 'email': 'mayoor_tagore@zboncak.org', 'gender': 'female',
+           'status': 'active'},
+          {'id': 3127, 'name': 'Geetanjali Chaturvedi LLD', 'email': 'lld_chaturvedi_geetanjali@davis.name',
+           'gender': 'female', 'status': 'inactive'}]}
+
 '''
