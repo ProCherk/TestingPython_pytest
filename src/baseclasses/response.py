@@ -12,10 +12,10 @@ class Response:
         if isinstance(self.response_json, list):
             for item in self.response_json:
                 schema.parse_obj(item)
-                #validate(item, POST_SCHEMA)
+                # validate(item, POST_SCHEMA)
         else:
             schema.parse_obj(self.response_json)
-            #validate(self.response, POST_SCHEMA)
+            # validate(self.response, POST_SCHEMA)
         return self
 
     def assert_status_code(self, status_code):
@@ -29,4 +29,5 @@ class Response:
         return \
             f"\nStatus code = {self.response_status} \n" \
             f"Requested url {self.response.url} \n" \
-            f"Response body {self.response_json}"
+            # f"Response body {self.response_json}" \
+
