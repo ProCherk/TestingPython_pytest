@@ -28,4 +28,3 @@ def make_number():
 @pytest.fixture
 def get_player_generator():
     return Player()
-

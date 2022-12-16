@@ -36,5 +36,5 @@ class Player:
         return self.result
 
 
-a = Player().build()  # available using set_methods to modify data
-print(a)
+# a = Player().build()  # available using set_methods to modify data
+# print(a)
